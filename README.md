@@ -38,11 +38,11 @@ Otherwise,
  
 - Then run the following codes (taking `SVTSR_X4net_g_latest.pth` as an example):
 ```
-python hat/test.py -opt options/test/SVTSR_SRx4.yml
+python svtsr/test.py -opt options/test/SVTSR_SRx4.yml
 ```
 The testing results will be saved in the `./results` folder.  
 
-- Refer to `./options/test/HAT_SRx4_ImageNet-LR.yml` for **inference** without the ground truth image.
+
 
 **Note that the tile mode is also provided for limited GPU memory when testing. You can modify the specific settings of the tile mode in your custom testing option by referring to `./options/test/HAT_tile_example.yml`.**
 
