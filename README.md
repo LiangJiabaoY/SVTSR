@@ -5,7 +5,7 @@
 
 # SVTSR
 
-### SVTSR: A Lightweight Scattering Vision Transformer for Image Super-Resolution 
+### A Lightweight Scattering Vision Transformer for Image Super-Resolution 
 
 
 
